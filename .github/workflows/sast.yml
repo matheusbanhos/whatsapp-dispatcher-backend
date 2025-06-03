@@ -3,6 +3,9 @@
 
 name: Run Horusec (SAST)
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
 
